@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Lora:ital,wght@1,400;1,500&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Lora", ui-serif, Georgia, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-natural-bg: #FDFCF9;
+  --color-natural-text: #3E4A42;
+  --color-natural-muted: #7A8A7F;
+  --color-natural-light: #A0A8A2;
+  --color-natural-border: #E6E1D6;
+  --color-natural-divide: #F2EFE9;
+  --color-forest: #4A6357;
+  --color-forest-dark: #3E5248;
+  --color-sage: #8DA399;
+  --color-terracotta: #C87959;
+  --color-mint-bg: #E2E8E4;
+}
+
+/* Elegant organic scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FDFCF9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #E6E1D6;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #A0A8A2;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}

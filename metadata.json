@@ -1,0 +1,6 @@
+{
+  "name": "Plant Video Generator",
+  "description": "An interactive 15-second generative plant growth video generator and custom storyboard player powered by Gemini AI and dynamic visual synthesis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
